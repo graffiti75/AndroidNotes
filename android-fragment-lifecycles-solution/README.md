@@ -81,7 +81,7 @@ Complete exercises below
           android:id="@+id/fragment_container_view"
           android:layout_width="match_parent"
           android:layout_height="match_parent"
-          android:name="com.codeop.android_fragment_lifecycles.fragments.FragmentExample"       // Line added
+          android:name="com.graffiti75.android_fragment_lifecycles.fragments.FragmentExample"       // Line added
           app:layout_constraintBottom_toBottomOf="parent"
           app:layout_constraintEnd_toEndOf="parent"
           app:layout_constraintStart_toStartOf="parent"
@@ -117,7 +117,3 @@ Complete exercises below
 - [Fragment lifecycle](https://google-developer-training.github.io/android-developer-advanced-course-concepts/unit-1-expand-the-user-experience/lesson-1-fragments/1-2-c-fragment-lifecycle-and-communications/1-2-c-fragment-lifecycle-and-communications.html)
 - [Learn to work on different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes)
 - [Learn how to pass arguments between fragments or between a fragment and the activity and how to store date at configuration change](https://developer.android.com/guide/fragments/communicate)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
