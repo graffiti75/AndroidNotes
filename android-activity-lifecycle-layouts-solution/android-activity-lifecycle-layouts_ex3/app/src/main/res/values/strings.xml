@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">android-activity-lifecycle-layouts</string>
+
+    <string name="screen1_title">FirstScreen</string>
+    <string name="screen1_goto_screen2">Go to Screen 2</string>
+    <string name="screen2_title">SecondScreen</string>
+    <string name="screen1_goto_screen3">Go to Screen 3</string>
+    <string name="screen3_title">ThirdScreen</string>
+    <string name="return_screen">Return to previous screen</string>
+    <string name="screen2_returned">Activity called was SecondActivity</string>
+    <string name="screen3_returned">Activity called was ThirdActivity</string>
+</resources>

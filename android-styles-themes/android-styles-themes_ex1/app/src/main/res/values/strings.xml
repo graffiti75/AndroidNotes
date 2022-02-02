@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android-styles-themes_ex1</string>
+
+    <string name="dog_1">Dog 1</string>
+    <string name="dog_2">Dog 2</string>
+    <string name="dog_3">Dog 3</string>
+</resources>

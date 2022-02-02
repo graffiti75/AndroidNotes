@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="movie"
+            type="com.codeop.android_connection_to_internet_ex2_solution.model.Movie" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="560dp"
+        android:layout_height="315dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/movie_poster"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:movieImage="@{movie}"
+            app:srcCompat="@drawable/placeholder_vertical" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_transparent_40" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/movie_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:datetimeFormatted="@{movie}"
+            tools:text="Titanic" />
+    </FrameLayout>
+</layout>

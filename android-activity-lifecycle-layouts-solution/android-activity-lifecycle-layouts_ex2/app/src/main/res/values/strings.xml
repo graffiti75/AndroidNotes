@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">android-activity-lifecycle-layouts</string>
+
+    <string name="hint">Type a text</string>
+    <string name="column1">Column 1</string>
+    <string name="button">Click Here</string>
+    <string name="hide_text_view">TextView unblocked!</string>
+    <string name="null_edit_text">EditText null!</string>
+</resources>

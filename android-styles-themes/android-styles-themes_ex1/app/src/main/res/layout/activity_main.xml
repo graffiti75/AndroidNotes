@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--=============== CARD VIEW #1 ===============-->
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/dog_1"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dog1" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="@string/dog_1"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+        </FrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <!--=============== CARD VIEW #2 ===============-->
+
+    <!-- TODO -->
+
+    <!--=============== CARD VIEW #3 ===============-->
+
+    <!-- TODO -->
+
+</androidx.appcompat.widget.LinearLayoutCompat>

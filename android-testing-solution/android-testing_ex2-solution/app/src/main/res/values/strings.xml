@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android-testing_ex2-solution</string>
+
+    <string name="element_text">Element</string>
+    <string name="item_element_text">This is element #</string>
+    <string name="middle">This is the middle!</string>
+</resources>

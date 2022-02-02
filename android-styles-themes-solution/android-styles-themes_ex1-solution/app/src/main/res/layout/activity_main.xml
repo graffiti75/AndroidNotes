@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--=============== CARD VIEW #1 ===============-->
+
+        <androidx.cardview.widget.CardView
+            style="@style/CardView_ImageView">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/Dog_ImageView"
+                    android:contentDescription="@string/dog_1"
+                    android:src="@drawable/dog1" />
+
+                <View style="@style/Dog_Transparent_View" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Dog_TextView"
+                    android:text="@string/dog_1" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--=============== CARD VIEW #2 ===============-->
+
+        <androidx.cardview.widget.CardView
+            style="@style/CardView_ImageView">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/Dog_ImageView"
+                    android:contentDescription="@string/dog_2"
+                    android:src="@drawable/dog2" />
+
+                <View style="@style/Dog_Transparent_View" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Dog_TextView"
+                    android:text="@string/dog_2" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!--=============== CARD VIEW #3 ===============-->
+
+        <androidx.cardview.widget.CardView
+            style="@style/CardView_ImageView">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    style="@style/Dog_ImageView"
+                    android:contentDescription="@string/dog_3"
+                    android:src="@drawable/dog3" />
+
+                <View style="@style/Dog_Transparent_View" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    style="@style/Dog_TextView"
+                    android:text="@string/dog_3" />
+            </FrameLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

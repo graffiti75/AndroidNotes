@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/id_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp"
+        app:backgroundTint="@color/black">
+
+        <requestFocus />
+    </EditText>
+
+    <TableRow android:background="@color/blue">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/column1" />
+
+        <TextView
+            android:id="@+id/id_text_view"
+            style="@style/TextViewStyle"
+            android:focusable="true" />
+    </TableRow>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/id_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/red"
+        android:focusable="true"
+        android:text="@string/button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/id_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/hide_text_view"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </LinearLayout>
+</TableLayout>

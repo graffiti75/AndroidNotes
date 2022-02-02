@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">android-connection-to-internet_ex1</string>
+
+    <string name="no_internet">No internet. Try again later.</string>
+</resources>

@@ -1,0 +1,58 @@
+1. When do you use a Byte?
+The Byte data type can store whole numbers from -128 to 127. This can be used instead of Int or other integer types to save memory when you are certain that the value will be within -128 and 127:
+2. What happens when you assign a Byte a value of 128? And why does it happen?
+Compilation error "The integer literal does not conform to the expected type Byte"
+3. What's the Short range?
+The Short data type can store whole numbers from -32768 to 32767
+3. What's the Int range?
+The Int data type can store whole numbers from -2147483648 to 2147483647
+4. What's the Long range and when you use a Long?
+The Long data type can store whole numbers from -9223372036854775808 to 9223372036854775808.
+This is used when Int is not large enough to store the value.
+5. What happens when you assign the value 2147483648 to a Long and then you explicitly cast it to Int?
+When you go above the maximum value of the signed integer, the result usually becomes a negative number. For example, 2147483647+1 is usually −2147483648. When you go below the minimum value (underflow), the result usually becomes a positive number. For example, −2147483648−1 is usually 2147483647. In this case a modulo operation is performed.
+6. What's a Float?
+The Float data type can store fractional numbers from 3.4e−038 to 3.4e+038. Note that you should end the value with an "F":
+7. What's a Double?
+The Double data type can store fractional numbers from 1.7e−308 to 1.7e+038
+8. Explain the Floating point binary representation. What number value gives you the binary 0 01111111 011 0000 0000 0000 0000 0000
+Resources: (https://www.trimble.com/OEM_ReceiverHelp/V4.44/en/FloatingPointDataTypes.html, https://www.bbc.co.uk/bitesize/guides/zscvxfr/revision/3)
+0 01111111 011 0000 0000 0000 0000 0000  = -1.375
+9. What's a Boolean?
+The Boolean data type and can only take the values true or false
+10. What's a Character?
+The Char data type is used to store a single character. A char value must be surrounded by single quotes, like 'A' or 'c'
+11. What's a String?
+The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes
+12. Can you convert a String to a Char?
+You can convert a single character or you can convert a String in an array of character.
+13. What's an array?
+Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each value.
+14. Consider the following class, what's the Call Stack, the Stack Memory and the Heap Space
+    class Person {
+        int id;
+        String name;
+
+        public Person(int id, String name) {
+            this.id = id;
+            this.name = name;
+        }
+    }
+
+    public class PersonBuilder {
+        private static Person buildPerson(int id, String name) {
+            return new Person(id, name);
+        }
+
+        public static void main(String[] args) {
+            int id = 23;
+            String name = "John";
+            Person person = null;
+            person = buildPerson(id, name);
+        }
+    }
+15. What's a string pool and how does it work?
+String pool is a storage area in Java heap where string literals stores.
+It is also known as String Intern Pool or String Constant Pool.
+The JVM performs some steps during the initialization of string literals that increase the performance and decrease the memory load. To decrease the number of String objects created in the JVM the String class keeps a pool of strings.
+When we create a string literal, the JVM first check that literal in the String pool. If the literal is already present in the pool, it returns a reference to the pooled instance. If the literal is not present in the pool, a new String object takes place in the String pool.
