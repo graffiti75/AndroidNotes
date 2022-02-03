@@ -28,7 +28,3 @@ Complete exercises below
 - [Understand RecyclerView, ViewHolder](https://guides.codepath.com/android/using-the-recyclerview)
 - [Use DiffUtil](https://bignerdranch.com/blog/efficient-lists-with-diffutil-and-listadapter/)
 - [Use DataBinding & Binding Adapter](https://www.androidhive.info/android-databinding-in-recyclerview-profile-screen/)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
