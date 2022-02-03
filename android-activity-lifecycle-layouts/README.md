@@ -84,7 +84,3 @@ Complete exercises below
 - [UI Layouts](https://www.tutlane.com/tutorial/android/android-ui-layouts-linear-relative-frame-table-listview-gridview-webview)
 - [How to pass arguments between activities](https://devofandroid.blogspot.com/2018/03/pass-data-between-activities-using.html)
 - [How to store data at configuration change](https://developer.android.com/guide/components/activities/activity-lifecycle#saras)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
