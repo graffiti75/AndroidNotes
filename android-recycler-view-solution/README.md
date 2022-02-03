@@ -12,7 +12,7 @@ Complete exercises below
 
 ## Exercise 1. Creating a RecyclerView with ViewHolder
 
-- Given the code in [this repo](https://github.com/CodeOp-tech/bumble-android-assignments/tree/master/android-recycler-view/android_recycler_view_ex1):
+- Given the code in [this repo](https://github.com/graffiti75/AndroidNotes/tree/master/android-recycler-view/android_recycler_view_ex1):
 	- Replace the `TextView` for a `RecyclerView`, and make it run
 
 ### Solution
@@ -260,21 +260,21 @@ Complete exercises below
 			<data>
 			    <variable
 			        name="myViewModel"
-			        type="com.codeop.android_recycler_view_ex3_solution.DatetimeViewModel" />
+			        type="com.graffiti75.android_recycler_view_ex3_solution.DatetimeViewModel" />
 			</data>
 			```
 	
 		- **1.2.** Open `item_view.xml` layout file in the Code tab and put the cursor on the `TextView` tag and press `ALT + ENTER` (Option+Enter on a Mac)
 		- **1.3.** After the intention menu open (the "quick fix" menu), select `Convert to data binding layout` (this will wrap the layout into `<layout>` and will add a `<data>` tag inside)
 		- **1.4.** Scroll back to the top and inside the `<data>` tag declare a variable named `datetime`		
-		- **1.5.** Make its type the fully qualified name of `Datetime`, `com.codeop.android_recycler_view_ex3.Datetime`
+		- **1.5.** Make its type the fully qualified name of `Datetime`, `com.graffiti75.android_recycler_view_ex3.Datetime`
 			- **1.4.1.** Your finished `<data>` tag should look like this:
 
 				```
 				<data>
 				    <variable
 				        name="datetime"
-				        type="com.codeop.android_recycler_view_ex3_solution.Datetime"/>
+				        type="com.graffiti75.android_recycler_view_ex3_solution.Datetime"/>
 				</data>
 				```
 
@@ -382,7 +382,3 @@ Complete exercises below
 - [Understand RecyclerView, ViewHolder](https://guides.codepath.com/android/using-the-recyclerview)
 - [Use DiffUtil](https://bignerdranch.com/blog/efficient-lists-with-diffutil-and-listadapter/)
 - [Use DataBinding & Binding Adapter](https://www.androidhive.info/android-databinding-in-recyclerview-profile-screen/)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
