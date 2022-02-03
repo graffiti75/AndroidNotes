@@ -79,7 +79,3 @@ Complete exercises below
 - [Fragment lifecycle](https://google-developer-training.github.io/android-developer-advanced-course-concepts/unit-1-expand-the-user-experience/lesson-1-fragments/1-2-c-fragment-lifecycle-and-communications/1-2-c-fragment-lifecycle-and-communications.html)
 - [Learn to work on different screen sizes](https://developer.android.com/guide/topics/large-screens/support-different-screen-sizes)
 - [Learn how to pass arguments between fragments or between a fragment and the activity and how to store date at configuration change](https://developer.android.com/guide/fragments/communicate)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
