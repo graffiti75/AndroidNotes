@@ -15,7 +15,7 @@ Complete exercises below
 
 ## Exercise 1. Getting data from internet using Retrofit
 
-- Given the app into [this repository](https://github.com/CodeOp-tech/bumble-android-assignments/tree/master/android-connection-to-internet/android-connection-to-internet_ex1), containing a MVVM Architecture (using `LiveData` and `ViewModel`):
+- Given the app into [this repository](https://github.com/graffiti75/AndroidNotes/tree/master/android-connection-to-internet/android-connection-to-internet_ex1), containing a MVVM Architecture (using `LiveData` and `ViewModel`):
 	- Implement all TODO's from the source code
 	- Use [TheMovieDb API](https://www.themoviedb.org/documentation/api) to show a list of movies from **the current year**
 	- This app contains a main screen that should show a list of movies released in the current year
@@ -40,7 +40,3 @@ Complete exercises below
 - [Coroutines and Deferred](https://medium.com/android-beginners/mvvm-with-kotlin-coroutines-and-retrofit-example-d3f5f3b09050)
 - [Exception & Error Handling](https://developer.android.com/kotlin/coroutines)
 - [Use a library to download and display images](https://guides.codepath.com/android/Displaying-Images-with-the-Glide-Library)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
