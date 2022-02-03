@@ -89,7 +89,3 @@ Complete exercises below
 - [Shared preferences](https://developer.android.com/training/data-storage/shared-preferences)
 - [Room](https://developer.android.com/training/data-storage/room)
 - [Offline mode, when to do it, how to do it](https://developer.android.com/jetpack/guide)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
