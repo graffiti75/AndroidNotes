@@ -110,7 +110,3 @@ class AreaFactory {
 - [Different persisting data techniques, in memory, cache](https://developer.android.com/training/data-storage)
 - [MVVM & LiveData](https://developer.android.com/jetpack/guide)
 - [Introduction to SOLID Principal and Clean Architecture](https://medium.com/the-android-caf%C3%A9/solid-principles-the-kotlin-way-ff717c0d60da)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
