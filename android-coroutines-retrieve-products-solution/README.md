@@ -25,7 +25,3 @@ Note: In order to complete this exercise you will need to study the Retrofit API
 - [How to initialise a thread](https://stackoverflow.com/questions/46505528/how-to-initialize-a-thread-in-kotlin#46505671)
 - [Coroutines context & dispatchers](https://kotlinlang.org/docs/coroutine-context-and-dispatchers.html)
 - [Flow in Kotlin](https://kotlinlang.org/docs/flow.html#flows)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
