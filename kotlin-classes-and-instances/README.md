@@ -133,7 +133,3 @@ This example covers the concept of Sealed Classes.
 - [Inner classes](https://kotlinlang.org/docs/nested-classes.html)
 - [Enum classes](https://www.baeldung.com/kotlin/enum)
 - [Inline classes](https://www.baeldung.com/kotlin/inline-classes)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
