@@ -19,7 +19,3 @@ Learn to write functions in Kotlin, and write and run unit tests.
 - [Data types](https://kotlinlang.org/docs/basic-types.html)
 - [Integers overflow](https://everything.explained.today/Integer_overflow)
 - [Heap & Stack in Java](https://www.javatpoint.com/stack-vs-heap-java)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
