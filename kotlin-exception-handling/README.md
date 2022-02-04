@@ -36,7 +36,3 @@ fun invalidAge(p: Person) {
 ## Resources
 
 - [Exception handling](https://www.baeldung.com/kotlin/exception-handling)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
