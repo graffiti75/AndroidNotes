@@ -68,7 +68,3 @@ fun <T> hasDuplicates(arr: Array<T>): Boolean {
 ## Resources
 
 - [Arrays](https://www.w3schools.com/kotlin/kotlin_arrays.php)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
