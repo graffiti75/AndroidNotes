@@ -107,7 +107,3 @@ Return the maximum total sum that the height of the buildings can be increased b
 - [Collections in Kotlin](https://kotlinlang.org/docs/collections-overview.html)
 - [Arrays in Kotlin](https://www.tutorialspoint.com/kotlin/kotlin_arrays.htm)
 - [Arrays API](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-array/)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
