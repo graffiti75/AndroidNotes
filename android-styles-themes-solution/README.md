@@ -56,7 +56,3 @@ Complete exercises below
 - [Material design](https://material.io/design)
 - [Accessibility](https://developer.android.com/codelabs/starting-android-accessibility)
 - [Flavours in Android](https://developer.android.com/studio/build/build-variants)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
