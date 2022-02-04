@@ -75,7 +75,3 @@ fun findAndReplace(text: String = TEXT, key: String = "ana"): Int {
 - [Boolean](https://www.w3schools.com/kotlin/kotlin_booleans.php)
 - [Character](https://tutorialwing.com/kotlin-character-tutorial-example/)
 - [Strings](https://www.w3schools.com/kotlin/kotlin_strings.php)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
