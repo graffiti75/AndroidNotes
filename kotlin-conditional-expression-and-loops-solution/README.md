@@ -39,7 +39,3 @@ In other words, return true if one of s1's permutations is the substring of s2.
 
 - [Conditional expression cheatsheet](https://www.codecademy.com/learn/learn-kotlin/modules/learn-kotlin-conditional-expressions/cheatsheet)
 - [Loops](https://www.codecademy.com/learn/learn-kotlin/modules/learn-kotlin-loops/cheatsheet)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
