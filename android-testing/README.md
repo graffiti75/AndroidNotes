@@ -12,7 +12,7 @@ Complete exercises below
 
 ## Exercise 1. Integration Test
 
-- Given [this repository](https://github.com/CodeOp-tech/bumble-android-assignments/tree/master/android-testing/android-testing_ex1) with the class below:
+- Given [this repository](https://github.com/graffiti75/AndroidNotes/tree/master/android-testing/android-testing_ex1) with the class below:
 
 	```
 	class ResourceComparer {
@@ -31,7 +31,7 @@ Complete exercises below
 
 ## Exercise 2. UI Test with RecyclerView
 
-- Given the app into [this repository](https://github.com/CodeOp-tech/bumble-android-assignments/tree/master/android-testing/android-testing_ex2):
+- Given the app into [this repository](https://github.com/graffiti75/AndroidNotes/tree/master/android-testing/android-testing_ex2):
 	- Create a test class called `RecyclerViewSampleTest`
 	- This class must create a UI Test using `Espresso`
 	- Inside this class you will need to create a test method called `givenRecyclerView_whenScrollToItem_thenCheckItsTextIsCorrect()`
@@ -42,7 +42,7 @@ Complete exercises below
 
 ## Exercise 3. Unit Test with TDD
 
-- Using TDD methodology, and given [this repository](https://github.com/CodeOp-tech/bumble-android-assignments/tree/master/android-testing/android-testing_ex3):
+- Using TDD methodology, and given [this repository](https://github.com/graffiti75/AndroidNotes/tree/master/android-testing/android-testing_ex3):
 	- Create some Unit Tests for each of the 4 requirements:
 		- **1.** The username/password is empty
 		- **2.** The username is already taken
@@ -79,7 +79,3 @@ Complete exercises below
 - [Unit tests](https://developer.android.com/codelabs/android-training-unit-tests#0)
 - [UI tests](https://developer.android.com/codelabs/android-training-espresso-for-ui-testing#0)
 - [Integration tests](https://adalpari.github.io/android-testing-integration-tests/)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
