@@ -166,7 +166,3 @@ Complete exercises below, and Unit Tests (when required)
 
 - [Coroutines](https://kotlinlang.org/docs/coroutines-basics.html)
 - [Scopes](https://kotlinlang.org/docs/coroutine-context-and-dispatchers.html)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
