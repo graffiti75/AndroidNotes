@@ -22,7 +22,3 @@ Learn to write functions in Kotlin, and write and run unit tests.
 
 - [Unit tests](https://kotlinlang.org/docs/jvm-test-using-junit.html)
 - [Functions in Kotlin](https://kotlinlang.org/docs/functions.html)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
