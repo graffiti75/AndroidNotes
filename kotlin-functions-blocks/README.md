@@ -63,7 +63,3 @@ class Person(val firstName: String, val lastName: String)
 - [Lambda Function](https://www.baeldung.com/kotlin/lambda-expressions)
 - [Inline function](https://www.javatpoint.com/kotlin-inline-function)
 - [Extension function](https://kotlinlang.org/docs/extensions.html)
-
-## Notes
-
-_This is a student project that was created at [CodeOp](http://CodeOp.tech), an android development bootcamp in Barcelona._
